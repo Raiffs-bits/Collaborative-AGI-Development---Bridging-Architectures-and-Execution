@@ -1,0 +1,23 @@
+id: string
+task_set: enum[Adversarial Fact Verification, Multi-Step Tool-Augmented Reasoning, Constrained Policy Generation]
+inputs: object
+outputs:
+  model_output: string
+  reasoning_trace: string
+  tool_calls:
+    - name: string
+      args: object
+      result: object
+metrics:
+  determinism_index: float
+  hallucination_rate: float
+  source_prioritization_accuracy: float
+  reasoning_transparency: string
+  performance_efficiency:
+    latency_ms: int
+    compute_cost: float
+  error_recovery_pattern: string
+validation:
+  ground_truth: string | object
+  adherence_score: float
+  notes: string

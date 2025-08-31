@@ -1,0 +1,454 @@
+{
+  "per_task": [
+    {
+      "id": "AFV-001",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-002",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-003",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-004",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-005",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-006",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-007",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-008",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-009",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "AFV-010",
+      "task_set": "Adversarial Fact Verification",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 0.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none",
+        "source_prioritization_accuracy": 0.0
+      }
+    },
+    {
+      "id": "MSR-001",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-002",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-003",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-004",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-005",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-006",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-007",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-008",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-009",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "MSR-010",
+      "task_set": "Multi-Step Tool-Augmented Reasoning",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-001",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-002",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-003",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-004",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-005",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-006",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-007",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-008",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-009",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    },
+    {
+      "id": "CPG-010",
+      "task_set": "Constrained Policy Generation",
+      "metrics": {
+        "determinism_index": 1.0,
+        "hallucination_rate": 1.0,
+        "reasoning_transparency": "present",
+        "performance_efficiency": {
+          "latency_ms": 0,
+          "compute_cost": -1
+        },
+        "error_recovery_pattern": "none"
+      }
+    }
+  ],
+  "summary": {
+    "Adversarial Fact Verification": {
+      "avg_determinism_index": 1.0,
+      "avg_hallucination_rate": 0.0,
+      "avg_source_prioritization_accuracy": 0.0,
+      "avg_latency_ms": 0
+    },
+    "Multi-Step Tool-Augmented Reasoning": {
+      "avg_determinism_index": 1.0,
+      "avg_hallucination_rate": 1.0,
+      "avg_source_prioritization_accuracy": null,
+      "avg_latency_ms": 0
+    },
+    "Constrained Policy Generation": {
+      "avg_determinism_index": 1.0,
+      "avg_hallucination_rate": 1.0,
+      "avg_source_prioritization_accuracy": null,
+      "avg_latency_ms": 0
+    }
+  }
+}
