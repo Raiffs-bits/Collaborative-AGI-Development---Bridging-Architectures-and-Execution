@@ -1,0 +1,31 @@
+[project]
+name = "agi-governance-benchmark"
+version = "1.2.0"
+description = "Governance-first benchmark for AFV, MSR, and CPG with recovery, fairness, and transparency."
+requires-python = ">=3.10"
+authors = [{name="Codette x SIM-ONE", email="devnull@example.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+  "pyyaml>=6.0.1",
+  "cryptography>=42.0.0",
+  "matplotlib>=3.8.0"
+]
+
+[project.optional-dependencies]
+fairness = ["sentence-transformers>=2.7.0"]
+dev = ["pytest>=8.0.0", "ruff>=0.5.0", "black>=24.4.0", "mypy>=1.10.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E","F","I","UP"]
+ignore = []
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true

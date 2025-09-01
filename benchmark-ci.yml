@@ -1,0 +1,42 @@
+
+name: benchmark-ci
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements-optional.txt ]; then pip install -r requirements-optional.txt || true; fi
+
+      - name: Run demo harness
+        run: |
+          python run_harness.py --tasks tasks.jsonl --runs 5 --out results_ci.jsonl
+
+      - name: Score results
+        run: |
+          python score_results.py --tasks tasks.jsonl --results results_ci.jsonl --out scores_ci.json
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: |
+            results_ci.jsonl
+            scores_ci.json

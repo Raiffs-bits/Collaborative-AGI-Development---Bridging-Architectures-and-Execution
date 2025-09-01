@@ -1,0 +1,4 @@
+
+# Optional dependencies (heavy); install if you want fairness proxy checks
+sentence-transformers>=2.2.2
+torch>=2.2.0

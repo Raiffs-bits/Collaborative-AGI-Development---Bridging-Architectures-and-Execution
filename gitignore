@@ -1,0 +1,18 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+.venv/
+.env/
+
+# Results / artifacts
+results*.jsonl
+scores*.json
+recovery_stats.json
+*.enc
+
+# OS files
+.DS_Store
