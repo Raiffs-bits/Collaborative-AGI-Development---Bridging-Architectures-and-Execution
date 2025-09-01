@@ -10,3 +10,9 @@
 
 ## v1.0 (2025-08-30)
 - Initial release with tasks.jsonl, schema, harnesses, eval utils, and scoring scripts.
+
+## v1.2 (2025-08-31)
+- Added `error_recovery_handler.py` with pluggable ModelClient, deterministic RNG, and optional fairness + encryption.
+- Added `config_recovery.yaml` and `run_harness_recovery.py` demo runner.
+- Added `README_RECOVERY.md` documentation.
+- Collected recovery distribution in `recovery_stats.json`.

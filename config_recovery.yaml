@@ -1,0 +1,11 @@
+
+# config_recovery.yaml
+retry_limit: 2
+proxy_threshold: 0.70
+rng_seed: 42
+recovery_weights:
+  TimeoutError: 0.75
+  HTTPError_429: 0.75
+  HTTPError_400: 0.50
+  ConstraintViolation: 0.30
+  RuntimeError: 0.50
