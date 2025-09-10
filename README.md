@@ -112,11 +112,11 @@ The benchmark is deliberately small (30 items) for reproducibility. Extend as ne
 Historical versions are preserved in /archive/ for transparency.
 
 # 
-{
-Citation
-@misc{codette_governance_benchmark,
+@misc{harrison_sasser_codette_governance_benchmark_2025,
+  author       = {Jonathan Harrison and Daniel T. Sasser II},
   title        = {Governance Benchmark Package (Codette ↔ SIM-ONE)},
-  year         = 2025,
-  publisher    = {Raiff's Bits LLC},
+  year         = {2025},
+  publisher    = {Raiff's Bits LLC and SIM-ONE},
   url          = {https://github.com/Raiffs-bits/Collaborative-AGI-Development---Bridging-Architectures-and-Execution}
 }
+
