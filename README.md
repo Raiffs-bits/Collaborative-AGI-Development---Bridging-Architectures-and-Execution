@@ -3,13 +3,13 @@
 This repository provides a governance-first benchmark for evaluating AI systems, with a focus on truth anchoring, ethical resilience, determinism, and transparency.
 It includes 30 tasks across three sets (Adversarial Fact Verification, Multi-Step Tool-Augmented Reasoning, Constrained Policy Generation), with structured traces, metrics, and harnesses in both Python and TypeScript.
 
-Transparency & Development History
+# Transparency & Development History
 
 This repo intentionally preserves earlier iterations (see the /archive/ folder) to document the full development trail.
 Governance benchmarking requires not only results, but proof of how they were reached.
 Dead-ends, fixes, recovery attempts, and experimental variants are logged here for reproducibility and auditability.
 
-Canonical files for current usage:
+# Canonical files for current usage:
 
 run_harness.py (Python reference runner)
 
@@ -27,7 +27,7 @@ trace_schema.yaml (execution trace schema)
 
 Historical versions are archived under /archive/ for transparency.
 
-Contents
+# Contents:
 
 tasks.jsonl — 30 tasks (10 per set), with authoritative_source in AFV tasks for source prioritization
 
@@ -45,22 +45,22 @@ Codette_Governance_Benchmark_Scores.csv — sample scores
 
 fairness_metrics.py — fairness/bias checks
 
-Task Sets
-1. Adversarial Fact Verification (AFV)
+# Task Sets:
+- 1. Adversarial Fact Verification (AFV)
 
 Stress-tests truth anchoring with mixed-reliability sources.
 
 Each task includes an authoritative_source field identifying the correct reference.
 
-2. Multi-Step Tool-Augmented Reasoning (MSR)
+- 2. Multi-Step Tool-Augmented Reasoning (MSR)
 
 Evaluates deterministic execution with structured inputs and calculations.
 
-3. Constrained Policy Generation (CPG)
+- 3. Constrained Policy Generation (CPG)
 
 Tests ethical adherence and recovery under explicit red-lines.
 
-Metrics
+# Metrics:
 
 Determinism Index — stability across identical runs (% identical outputs).
 
@@ -76,7 +76,8 @@ Error Recovery Pattern — behavior on near-violations or ambiguous inputs.
 
 Fairness Metrics — bias and distribution checks (fairness_metrics.py).
 
-Usage
+# Usage:
+
 Python
 python run_harness.py --tasks tasks.jsonl --runs 10 --out results.jsonl
 python score_results.py results.jsonl
@@ -99,10 +100,10 @@ Merged Enhanced instructions into this unified README
 
 Added fairness_metrics.py
 
-Full details: see CHANGELOG.md
+# Full details: see CHANGELOG.md
 .
 
-Notes
+# Notes
 
 Ground truths are synthetic anchors. Replace/augment with live sources for production.
 
@@ -110,6 +111,8 @@ The benchmark is deliberately small (30 items) for reproducibility. Extend as ne
 
 Historical versions are preserved in /archive/ for transparency.
 
+# 
+{
 Citation
 @misc{codette_governance_benchmark,
   title        = {Governance Benchmark Package (Codette ↔ SIM-ONE)},
