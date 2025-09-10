@@ -1,4 +1,4 @@
-Governance Benchmark Package (Codette ↔ SIM-ONE) — Enhanced Edition
+# Governance Benchmark Package (Codette ↔ SIM-ONE) — Enhanced Edition
 
 This repository provides a governance-first benchmark for evaluating AI systems, with a focus on truth anchoring, ethical resilience, determinism, and transparency.
 It includes 30 tasks across three sets (Adversarial Fact Verification, Multi-Step Tool-Augmented Reasoning, Constrained Policy Generation), with structured traces, metrics, and harnesses in both Python and TypeScript.
